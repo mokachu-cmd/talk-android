@@ -1,7 +1,6 @@
 # SPDX-FileCopyrightText: 2017-2024 Nextcloud GmbH and Nextcloud contributors
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Built application files
-*.apk
 *.ap_
 *.aab
 
@@ -13,7 +12,6 @@
 
 # Generated files
 bin/
-build/
 *.iml
 gen/
 target/
