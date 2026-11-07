@@ -127,8 +127,12 @@ class ServerSelectionActivity : BaseActivity() {
         }
 
         binding.serverEntryTextInputEditText.requestFocus()
-        if (!TextUtils.isEmpty(resources!!.getString(R.string.weblogin_url))) {
-            binding.serverEntryTextInputEditText.setText(resources!!.getString(R.string.weblogin_url))
+        val brandedServerUrl = resources!!.getString(R.string.weblogin_url)
+        if (!TextUtils.isEmpty(brandedServerUrl)) {
+            binding.serverEntryTextInputEditText.setText(brandedServerUrl)
+            binding.serverEntryTextInputEditText.isEnabled = false
+            binding.scanQr.visibility = View.GONE
+            binding.importOrChooseProviderText.visibility = View.INVISIBLE
             checkServerAndProceed()
         }
         binding.serverEntryTextInputEditText.setOnEditorActionListener { _: TextView?, i: Int, _: KeyEvent? ->
