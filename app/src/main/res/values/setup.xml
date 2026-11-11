@@ -11,9 +11,9 @@
     <string name="nc_talk_database_encryption_key" translatable="false">HvAfHtAy/QdFYqAWFFXa1VV_Iv6ZQ1.tf5swMc^45wS_vz=Wm[oyRP5D-</string>
     <bool name="nc_is_debug">false</bool>
 
-    <string name="nc_app_name">Rensource Portal Talk</string>
-    <string name="nc_app_product_name">Rensource Portal Talk</string>
-    <string name="nc_server_product_name">Rensource Portal</string>
+    <string name="nc_app_name">Rensource Talk</string>
+    <string name="nc_app_product_name">Rensource Talk</string>
+    <string name="nc_server_product_name">Rensource</string>
 
     <string name="nc_push_server_url" translatable="false">https://push-notifications.nextcloud.com</string>
 
